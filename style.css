@@ -1,0 +1,32 @@
+html,
+body {
+  font-size: 10px;
+}
+
+.app {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  width: 40rem;
+  height: 60rem;
+  background-color: yellow;
+  position: relative;
+  font-size: 20rem;
+  text-align: center;
+}
+.doodler {
+  width: 6rem;
+  height: 8.5rem;
+  background-color: red;
+  position: absolute;
+}
+
+.platform {
+  width: 8.5rem;
+  height: 1.5rem;
+  background-color: green;
+  position: absolute;
+}
