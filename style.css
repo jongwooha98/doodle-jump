@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   font-size: 10px;
@@ -10,23 +15,47 @@ body {
   align-items: center;
 }
 .grid {
-  width: 40rem;
-  height: 60rem;
-  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+  background: url('images/mars.png') no-repeat center;
+  background-size: cover;
   position: relative;
-  font-size: 20rem;
+  font-size: 2rem;
   text-align: center;
+  display: grid;
+  place-items: center;
+}
+.gameover {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+}
+.gameover img {
+  width: 100px;
+  height: auto;
 }
 .doodler {
-  width: 6rem;
-  height: 8.5rem;
-  background-color: red;
+  width: 60px;
+  height: 85px;
+  background: url('images/elon.png') no-repeat center;
+  background-size: contain;
   position: absolute;
 }
 
 .platform {
-  width: 8.5rem;
-  height: 1.5rem;
-  background-color: green;
+  width: 85px;
+  height: 15px;
+  background: url('images/cybertruck.png') no-repeat center;
+  background-size: cover;
+
   position: absolute;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    width: 400px;
+    height: 600px;
+  }
 }
