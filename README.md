@@ -1,4 +1,4 @@
-# Doodle Jump
+# Elon Jump
 
 [Play Elon Jump!](https://jongwooha98.github.io/elon-jump)
 
